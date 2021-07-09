@@ -16,7 +16,7 @@ V2 - freerider2-tracksize1.0.swf
   * Skateboard added
   * Web URL DRM
 V3 - play.swf / create.swf  
-  * Skateboard added  
+  * Scooter added  
   
 
 SWF URLS:
