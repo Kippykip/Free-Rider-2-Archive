@@ -1,0 +1,1343 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #D4C792 url(https://trackmill.com/free-rider-2/images/trackmill_bg.png);/*https://trackmill.com/images/trackmill_bg.png*/
+	/*background-repeat: repeat-y;
+	background-position: right;*/
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #333333;
+	overflow-x : hidden;
+}
+
+h1, h2, h3 {
+	color: #AA2808;
+}
+
+
+p, blockquote, ul, ol {
+	margin-bottom: 20px;
+	line-height: 1.6em;
+}
+
+p {
+}
+
+blockquote {
+}
+
+ul {
+}
+
+ol {
+}
+td{
+background-color:#FFFFFF;
+background-image:url(../menu_bg.gif);
+	padding-bottom: 4px;
+	padding-top: 4px;
+}
+
+a {
+	text-decoration: underline;
+	color: #323B51;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #FF0000;
+}
+
+/* Wrapper */
+
+#wrapper {
+}
+
+/* Header */
+
+#header {
+	width: 900px;
+	height: 70px;
+	margin: 0 auto;
+	background: url(../images/img05.gif) no-repeat left bottom;
+}
+
+/* Logo */
+
+#logo {
+	float: left;
+	padding: 4px 0 0 10px;
+}
+
+#logo h1 {
+	margin: 0;
+	padding: 0;
+	font: italic 36px "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+#logo h2 {
+	margin: -5px 0 0 0;
+	padding: 0;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 10px;
+	font-weight: bold;
+	color: #D4C792;
+}
+
+#logo a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+/* Menu */
+
+#menu {
+	float: right;
+	padding-right: 10px;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 25px 0 0 0;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	display: inline;
+}
+
+#menu a {
+	display: block;
+	float: left;
+	width: 110px;
+	height: 20px;
+	margin: 0;
+	padding: 10px 0 0 0;
+	background: url(../images/img02.gif);
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+#menu a:hover, #menu .active a {
+	background-image: url(../images/img03.gif);
+	color: #AA2808;
+}
+
+/* Page */
+
+#page {
+	width: 900px;
+	min-height: 900px;
+	margin: 0 auto;
+	background: #dcd0a2 url(../images/img04.gif) repeat-y;
+	text-align: center;
+}
+
+/* Content */
+
+#content {
+	float: left;
+	width: 625px;
+	padding: 0px 0 0 35px;
+}
+
+#content h1, #content h2, #content h3 {
+	margin-bottom: 20px;
+}
+
+#content h1 {
+	font-size: 136%;
+}
+
+#content h2 {
+	font-size: 107%;
+}
+
+#content h3 {
+	font: 92%;
+}
+
+#content ul, #content ol {
+	list-style-position: inside;
+}
+
+#content .boxed {
+	float: left;
+	width: 46%;
+	padding-right: 2%;
+}
+
+#content .boxed h2 {
+	padding: 5px 0;
+	background: url(../images/img5.jpg) repeat-x left bottom;
+}
+
+
+/* Sidebar */
+
+#sidebar {
+	float: right;
+	width: 150px;
+	padding: 0 35px 0 0;
+}
+
+#sidebar ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	line-height: normal;
+}
+
+#sidebar li {
+	margin-bottom: 1px;
+	padding: 20px 0;
+}
+
+#sidebar li ul {
+}
+
+#sidebar li li {
+	margin: 0;
+	padding: 7px 20px;
+	border: none;
+}
+
+#sidebar h2 {
+	padding: 5px 20px;
+	background: url(../images/img6.jpg);
+	border-bottom: 1px dotted #FFFFFF;
+	font-size: 100%;
+	color: #FF0000;
+}
+
+#sidebar h3 {
+	font-size: 77%;
+	color: #D4C792;
+}
+
+#sidebar p {
+	margin: 0;
+	line-height: normal;
+	color: #D4C792;
+}
+
+#sidebar a {
+	border: none;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+#sidebar a:hover {
+	text-decoration: underline;
+}
+/******************************************/
+
+/* leftSidebar */
+
+#leftsidebar {
+	float: left;
+	width: 150px;
+	padding: 0 0 0 35px;
+}
+
+#leftsidebar ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	line-height: normal;
+}
+
+#leftsidebar li {
+	margin-bottom: 1px;
+	padding: 20px 0;
+}
+
+#leftsidebar li ul {
+}
+
+#leftsidebar li li {
+	margin: 0;
+	padding: 7px 20px;
+	border: none;
+}
+
+#leftsidebar h2 {
+	padding: 5px 20px;
+	background: url(../images/img6.jpg);
+	border-bottom: 1px dotted #FFFFFF;
+	font-size: 100%;
+	color: #FF0000;
+}
+
+#leftsidebar h3 {
+	font-size: 77%;
+	color: #D4C792;
+}
+
+#leftsidebar p {
+	margin: 0;
+	line-height: normal;
+	color: #D4C792;
+}
+
+#leftsidebar a {
+	border: none;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+#leftsidebar a:hover {
+	text-decoration: underline;
+}
+
+/* Footer */
+
+#footer {
+	width: 900px;
+	height: 50px;
+	margin: 0 auto;
+	padding: 20px 0 0 0;
+	/*background: url(../images/img06.gif) no-repeat;*/
+	color: #FFFFFF;
+}
+
+#footer p {
+	margin: 0;
+	text-align: center;
+	font-size: 77%;
+}
+
+#footer a {
+	text-decoration: underline;
+	color: #FFFFFF;
+}
+
+#footer a:hover {
+	text-decoration: none;
+}
+/* Comments */
+/* ------------------------------------------------------- */
+
+.commentsblock {
+	margin: 1em 0 1.5em 0;
+	padding: 0 0 1em 0;
+}
+
+.even,
+.odd,
+#compreview {
+	margin-bottom: 15px;
+	padding: 0;
+	background: #fff url(../images/comtop.gif) no-repeat left top;
+	width: 545px;
+}
+
+.message,
+#TextDisplay {
+	margin: 0;
+	padding: 14px 14px 14px 90px;
+}
+
+#compreview { margin-bottom: 35px; }
+
+#compreview p {
+	margin: 0;
+	padding: 0;
+}
+
+.gr {
+	float:left;
+	margin-right: 7px;
+	height: 32px;
+	width: 32px;
+}
+
+.authinfo {
+	background: #d4c792 url(../images/tail.gif) no-repeat left top;
+	padding: 3px 0 0 33px;
+	color: #666;
+	height: 32px;
+	font-size: 10px;
+	margin-top: -1px;
+}
+
+
+.even { background: #eee url(images/comtop.gif) no-repeat left top;}
+.even .message {background: url(images/combot.gif) no-repeat right bottom;}
+.even .authinfo {background: #d4c792 url(images/tail.gif) no-repeat left top;}
+
+.odd span,
+.even span,
+#compreview span  {
+	font-weight: bold;
+	font-size: 12px;
+	color: #f00000;
+	display: block;
+}
+
+.odd span.caps,
+.even span.caps,
+#compreview span.caps  {
+	font-weight: normal;
+	font-size: inherit !important;
+	color:inherit !important;
+	display: inline;
+}
+
+.commentName{
+	font-family: 'Courier New', Courier, monospace;
+	
+}
+#TextDisplay { padding-bottom: 10px;}
+/*error Check*/
+div#errorchk {
+	margin: 0;
+	font-size: 12px /*smaller*/;
+	font-weight: bold;
+	/*line-height: 1.1;*/
+	text-align: center;
+	position: fixed;
+	top: 2em;
+	width: 100%;
+	height:auto;
+	right: 1em;
+}
+div#errorchk p {
+  margin: 0; 
+  padding: 0.3em 0.4em;
+  font-family: Arial, sans-serif;
+  background: #900;
+  border: thin outset #900;
+  color: white;
+  height:450px;
+  overflow:auto
+}
+.loginstatus{
+	position:absolute;
+	top: 0px;
+	right: auto;
+	left:auto;
+	font-weight: 800;
+	color: #FF0000;
+	float: right;
+	padding-left: 255px;
+	text-align: right;
+}
+.loginstatus a {
+	color: #FFFFFF;
+	border: 1px dotted #FFFFFF;
+}
+/* Rating buttons */
+.cssbutton{
+	background-color: #d1ec4c;
+	border: 2px #d1ec4c outset;
+	color: black;
+	text-decoration: none;
+	font: bold 90% "Lucida Grande", "Trebuchet MS", Verdana, Helvetica, sans-serif;
+	padding-top: 1px;
+	padding-right: 4px;
+	padding-bottom: 1px;
+	padding-left: 4px;
+	position: inherit;
+	z-index: 1;
+}
+
+.cssbutton:visited{
+color: black;
+}
+
+.cssbutton:hover{
+border-style: inset;
+background-color: #e3f48e;
+padding: 2px 3px 0 5px; /*shift text 1px to the right and down*/
+}
+
+.cssbutton:active{
+color: black;
+}
+#diffuclty {
+	position:relative;
+	left:0px;
+	top:0px;
+	width:auto;
+	height:0px;
+	z-index:2;
+	display:block;	
+}
+/* advertizement stuff */
+#ad_container {
+	position:relative;
+	/*left: 33%;
+	right: 33%;
+	min-width: 32%;*/
+	margin-left: auto;
+margin-right: auto;
+	top:0px;
+	width:625px;
+	height:100px;
+	z-index:1;
+	border-top-width: 4px;
+	border-right-width: 4px;
+	border-bottom-width: 4px;
+	border-left-width: 4px;
+	border-top-style: solid;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-top-color: #FFFFFF;
+	border-right-color: #FFFFFF;
+	border-bottom-color: #FFFFFF;
+	border-left-color: #FFFFFF;
+	background-color: #FFFFFF;
+}
+#ad_overlayL {
+	position:absolute;
+	left:0px;
+	top:-4px;
+	width:20px;
+	height:90px;
+	z-index:2;
+	background-image: url(../images/adboxL.gif);
+	background-repeat: no-repeat;
+	background-position: left;
+}
+#ad_overlayR {
+	position:absolute;
+	right:0px;
+	top:-4px;
+	width:22px;
+	height:108px;
+	z-index:2;
+	background-image: url(../images/adboxR.gif);
+	background-repeat: no-repeat;
+	background-position: left;
+}
+#ad_overlayB {
+	position:absolute;
+	left:0px;
+	bottom:-4px;
+	width:87px;
+	height:19px;
+	z-index:2;
+	background-image: url(../images/adboxB.gif);
+	background-repeat: no-repeat;
+	background-position: left;
+}
+/*map diffuclty */
+.indentmenu{
+font: bold 13px Arial;
+width: 100%; /*leave this value as is in most cases*/
+}
+
+.indentmenu ul{
+	margin: 0;
+	padding: 0;
+	float: left;
+	width: 100%; /*width of menu*/
+	background-repeat: repeat-x;
+	background-position: center center;
+}
+
+.indentmenu ul li{
+	display: inline;
+	
+}
+
+.indentmenu ul li a{
+	float: left;
+	color: white;
+	text-decoration: none;
+	background-color: #0000FF;
+	width: 55px;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+	padding-left: 0px;
+	border: 1px solid #000000;
+	font-size: 10px;
+	background-image: url(https://rfshq.com/free-rider/images/img01.gif);
+}
+
+
+.indentmenu ul li a:visited{
+color: white;
+}
+
+.indentmenu ul li a:hover, .indentmenu ul li .current{
+color: white !important; /*text color of selected and active item*/
+padding-top: 6px; /*shift text down 1px for selected and active item*/
+padding-bottom: 4px; /*shift text down 1px for selected and active item*/
+background-color: #d1ec4c;
+	border: 2px #d1ec4c outset;
+	color: black;
+	text-decoration: none;
+}
+#diffArrow {
+	position:absolute;
+	width:180px;
+	height:28px;
+	z-index:1;
+	vertical-align: top;
+}
+#filterR {
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:214px;
+	height:auto;
+	z-index:1;
+	float:left;
+	/*background-color: #d4c792;*/
+	/*border: 1px solid #3A445D;*/
+	background-image: url(../images/filterBottom.gif);
+	background-repeat: repeat-y;
+	background-position: left top;
+	padding-left: 15px;
+	padding-top: 2px;
+	
+}
+#apDiv1 {
+	position:relative;
+	left:0px;
+	top:15px;
+	width:214px;
+	height:0px;
+	z-index:2;
+	display:none;	
+}
+#searchDiv {
+	display:none;
+	text-align: center;
+}
+#apDiv2 {
+	position:relative;
+	height:auto;
+	z-index:2;
+	float:right;
+	background-color: #FF0000;
+	background-image: url(../images/ratething.jpg);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+#apDiv3 {
+	position:relative;
+	width:50%;
+	height:auto;
+	z-index:2;
+	float:left;
+	background-color: #00FF00;
+	background-image: url(../images/ratething.jpg);
+	background-repeat: no-repeat;
+	background-position: left;
+}
+li {
+	list-style-image: none;
+	list-style-type: none;
+}
+#subFilter {
+	position:absolute;
+	right:10px;
+	bottom:0px;
+	width:auto;
+	height:auto;
+	z-index:1;
+}
+#subFilter input {
+	
+	background-color: #FFFFFF;
+	border: 1px solid #0000FF;
+}
+.topMaps {
+	position:relative;
+	left:0px;
+	top:0px;
+	width:auto;
+	height:auto;
+	z-index:1;
+	background-image: url(../images/howdyhho.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	text-align: left;
+	padding-left: 3px;
+	font-size: 1em;
+}
+.topMaps b {
+	font-size: 12px;
+	font-style: italic;
+	font-weight: 800;
+	color: #FF0000;
+	text-align: left;
+	margin-right: 60px;
+}
+#mapPreview {
+	position:fixed;
+	right:0px;
+	bottom:0px;
+	width:400px;
+	height:250px;
+	z-index:3;
+	text-align: left;
+}
+.thenew {
+	color: #000000;
+	border: 2px solid #999999;
+	text-align: left;
+	font-size: 10px;
+}
+/* ***play map *** */
+#iframe_game {
+	position:fixed;
+	left:0;
+	top:0px;
+	width:100%;
+	height:100%;
+	z-index:101;
+	border: 1px solid #333333;
+	display:none;
+	background-color: #CCCCCC;
+}
+#apDiv2EEE {
+	position:absolute;
+	right:0;
+	bottom:0;
+	width:167px;
+	height:36px;
+	z-index:2;
+	
+}
+#apDivRRRR {
+	position:relative;
+	left:0px;
+	top:0;
+	height:100%;
+	
+	z-index:3;
+	margin-left: 140px;
+}
+#normalgame {display:block;}
+#gameinfo {
+	margin-left: 85px;
+	width:840px;
+	height:150px;
+	z-index:1;
+}
+#gameinfoLeft {
+	width:180px;
+	height:150px;
+	z-index:2;
+	float:left;
+	background-image: url(../numoftimesplayd.gif);
+	background-repeat: no-repeat;
+	font-size: 16px;
+}
+#gameinfoRight {
+padding-top:8px;
+	width:180px;
+	height:150px;
+	z-index:3;
+	float:left;
+	background-image: url(../numofpowerups.gif);
+	background-repeat: no-repeat;
+	text-align: left;
+}
+#gameinfoRight p {
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 5px;
+	margin-left: 42px;
+}
+#gameinfoLeft p {
+	margin-top: 5px;
+	 
+}
+#adminmsg {
+	background: #FFFFFF;
+	border: 1px solid #0000FF;
+	color: #0000FF;
+	position:fixed;
+	left:0px;
+	bottom:0px;
+	width:100%;
+	height:auto;
+	z-index:100;
+	opacity:0.8;
+    filter:alpha(opacity:80);
+	
+}
+#Topbits {
+	position:relative;
+	left:0px;
+	top:0px;
+	width:99.5%;
+	z-index:1;
+	background-color: #FFFFFF;
+	padding-left: 6px;
+	margin: 0px;
+	text-align: right;
+	background-image: url(../menu_bg.gif);
+}
+#LoginDiv {
+	position:absolute;
+	top: 113px;;
+	left: 50%;
+	width:25em;
+	height:10em;
+	margin-top: -9em; /*set to a negative number 1/2 of your height*/
+	margin-left: -15em; /*set to a negative number 1/2 of your width*/
+	border: 1px solid #ccc;
+	background-color: #FFFFFF;
+	background-image: url(../menu_bg.gif);
+	background-repeat: repeat-x;
+	text-align: center;
+	z-index: 1;
+}
+.recommend {}
+	.recommend ul, .recommend li {list-style-type:none;margin:0;padding:0;color:#333;}
+	.recommend ul {height:44px;background:url(https://images.pcworld.com/images/common/templates08/recommendBar.gif) no-repeat 0px 7px;}
+	.recommend li {float:left;padding:0 8px;height:43px;line-height:43px;overflow:hidden;font-weight:bold;}
+	.recommend li a {display:block;float:left;width:25px;height:32px;background-image:url(../images/thumbStates.gif);background-repeat:no-repeat;overflow:hidden;outline:none;}
+	.recommend li a:hover {background-color:transparent;outline:none;}
+	.recommend li.yes a {background-position:top left;}
+	.recommend li.yes a:hover {background-position:bottom left;}
+	.recommend li.no a {margin-top:11px;background-position:top right;outline:none;}
+	.recommend li.no a:hover {background-position:bottom right;outline:none;}
+	.recommend label {display:block;margin:-7px 0 0 5px;font-size:10px;color:#666;}
+
+.longRecommend {width:230px;margin:0 auto;overflow:hidden;}
+	.longRecommend li.no {padding-left:0;}
+	.longRecommend li.yes, .shortRecommend li.no{border:0;}
+/*******************************************
+Rating*************************************/
+/*  styles for the unit rater
+--------------------------------------------------------- 
+ryan masuga, masugadesign.com
+ryan@masugadesign.com 
+Licensed under a Creative Commons Attribution 3.0 License.
+https://creativecommons.org/licenses/by/3.0/
+See readme.txt for full credit details.
+--------------------------------------------------------- */
+
+.ratingblock {
+	display:block;
+	padding-bottom:0px;
+	margin-bottom:0px;
+	text-align:left;
+	}
+
+.loading {
+	height: 30px;
+	background: url('../images/working.gif') 50% 50% no-repeat;
+	}
+	
+.unit-rating { /* the UL */
+	list-style:none;
+	margin: 0px;
+	padding:0px;
+	height: 30px;
+	position: relative;
+	background: url('../images/starrating.gif') top left repeat-x;		
+	}
+
+.unit-rating li{
+    text-indent: -90000px;
+	padding:0px;
+	margin:0px;
+	/*\*/
+	float: left;
+	/* */
+	}
+	
+.unit-rating li a {
+	outline: none;
+	display:block;
+	width:30px;
+	height: 30px;
+	text-decoration: none;
+	text-indent: -9000px;
+	z-index: 20;
+	position: absolute;
+	padding: 0px;
+	}
+	
+.unit-rating li a:hover{
+	background: url('../images/starrating.gif') left center;
+	z-index: 2;
+	left: 0px;
+	}
+
+.unit-rating a.r1-unit{left: 0px;}
+.unit-rating a.r1-unit:hover{width:30px;}
+.unit-rating a.r2-unit{left:30px;}
+.unit-rating a.r2-unit:hover{width: 60px;}
+.unit-rating a.r3-unit{left: 60px;}
+.unit-rating a.r3-unit:hover{width: 90px;}
+.unit-rating a.r4-unit{left: 90px;}	
+.unit-rating a.r4-unit:hover{width: 120px;}
+.unit-rating a.r5-unit{left: 120px;}
+.unit-rating a.r5-unit:hover{width: 150px;}
+.unit-rating a.r6-unit{left: 150px;}
+.unit-rating a.r6-unit:hover{width: 180px;}
+.unit-rating a.r7-unit{left: 180px;}
+.unit-rating a.r7-unit:hover{width: 210px;}
+.unit-rating a.r8-unit{left: 210px;}
+.unit-rating a.r8-unit:hover{width: 240px;}
+.unit-rating a.r9-unit{left: 240px;}
+.unit-rating a.r9-unit:hover{width: 270px;}
+.unit-rating a.r10-unit{left: 270px;}
+.unit-rating a.r10-unit:hover{width: 300px;}
+
+.unit-rating li.current-rating {
+	background: url('../images/starrating.gif') left bottom;
+	position: absolute;
+	height: 30px;
+	display: block;
+	text-indent: -9000px;
+	z-index: 1;
+	}
+
+.voted {color:#999;}
+.thanks {color:#36AA3D;}
+.static {color:#5D3126;}
+/*******************************************
+Floatbox************************************/
+/* Floatbox v3.24 */
+/* December 01, 2008 */
+
+#fbOverlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border-width: 0;
+	margin: 0;
+	padding: 0;
+}
+
+/* overlay color */
+div.fbOverlay_black { background-color: #000; }
+div.fbOverlay_white {background-color: #000; }
+div.fbOverlay_blue { background-color: #0b183b; }
+div.fbOverlay_yellow { background-color: #752; }
+div.fbOverlay_red { background-color: #280000; }
+div.fbOverlay_custom { background-color: #1b2642; }
+
+#fbBox {
+	position: absolute;
+	border-style: solid;
+	border-width: 0;
+	margin: 0;
+	padding: 0;
+}
+div.fbBox_black {
+	border-color: #888;  /* outerBorder color */
+	background-color: #000;  /* main floatbox color */
+}
+div.fbBox_white {
+	border-color: #888;
+	background-color: #fff;
+}
+div.fbBox_blue {
+	border-color: #4060a8;
+	background-color: #0b183b;
+}
+div.fbBox_yellow {
+	border-color: #680c0c;
+	background-color: #ed9;
+}
+div.fbBox_red {
+	border-color: #945848;
+	background-color: #580808;
+}
+div.fbBox_custom {
+	border-color: #da7b4d;
+	background-color: #eed39e;
+}
+
+#fbBox div, #fbBox a, #fbBox img, #fbBox iframe {
+	border-width: 0;
+	margin: 0;
+	padding: 0;
+	outline: none;
+	-moz-outline: none;  /* for older Netscape, doesn't validate, remove if you like */
+}
+#fbBox a {
+	background: url(graphics/blank.gif);
+	zoom: 1;
+}
+
+#fbZoomDiv, a.fbPopup img, #fbBox #fbIndexLinks img {
+	position: absolute;
+	left: 0;
+	top: -9999px;
+	/* border-width is set in js code */
+	border-style: solid;
+	border-color: black;
+	margin: 0;
+	padding: 0;
+}
+
+#fbBox #fbLoader {
+	position: absolute;
+	top: 0;
+	left: 0;
+	min-width: 100%;
+	min-height: 100%;
+	width: 100%;
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+/* animated 'loading' graphic */
+#fbBox .fbLoader_black { background-image: url(graphics/loading_black.gif); }
+#fbBox .fbLoader_white { background-image: url(graphics/loading_white.gif); }
+#fbBox .fbLoader_blue { background-image: url(graphics/loading_black.gif); }
+#fbBox .fbLoader_yellow { background-image: url(graphics/loading_white.gif); }
+#fbBox .fbLoader_red { background-image: url(graphics/loading_black_small.gif); }
+#fbBox .fbLoader_custom { background-image: url(graphics/loading_black_small.gif); }
+
+#fbBox #fbShadowTop, #fbShadowRight, #fbBox #fbShadowBottom, #fbBox #fbShadowLeft, #fbBox #fbShadowCorner {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+}
+
+#fbBox #fbShadowTop { background-position: top left; }
+#fbBox .fbShadowTop_halo8 { background-image: url(graphics/shadowTop_halo8.png); }
+#fbBox .fbShadowTop_halo12 { background-image: url(graphics/shadowTop_halo12.png); }
+#fbBox .fbShadowTop_halo16 { background-image: url(graphics/shadowTop_halo16.png); }
+#fbBox .fbShadowTop_halo24 { background-image: url(graphics/shadowTop_halo24.png); }
+
+#fbBox #fbShadowRight { background-position: top right; }
+#fbBox .fbShadowRight_drop8 { background-image: url(graphics/shadowRight_drop8.png); }
+#fbBox .fbShadowRight_drop12 { background-image: url(graphics/shadowRight_drop12.png); }
+#fbBox .fbShadowRight_drop16 { background-image: url(graphics/shadowRight_drop16.png); }
+#fbBox .fbShadowRight_drop24 { background-image: url(graphics/shadowRight_drop24.png); }
+#fbBox .fbShadowRight_halo8 { background-image: url(graphics/shadowRight_halo8.png); }
+#fbBox .fbShadowRight_halo12 { background-image: url(graphics/shadowRight_halo12.png); }
+#fbBox .fbShadowRight_halo16 { background-image: url(graphics/shadowRight_halo16.png); }
+#fbBox .fbShadowRight_halo24 { background-image: url(graphics/shadowRight_halo24.png); }
+
+#fbBox #fbShadowBottom { background-position: bottom right; }  /* overridden in code for drop shadow */
+#fbBox .fbShadowBottom_drop8 { background-image: url(graphics/shadowBottom_drop8.png); }
+#fbBox .fbShadowBottom_drop12 { background-image: url(graphics/shadowBottom_drop12.png); }
+#fbBox .fbShadowBottom_drop16 { background-image: url(graphics/shadowBottom_drop16.png); }
+#fbBox .fbShadowBottom_drop24 { background-image: url(graphics/shadowBottom_drop24.png); }
+#fbBox .fbShadowBottom_halo8 { background-image: url(graphics/shadowBottom_halo8.png); }
+#fbBox .fbShadowBottom_halo12 { background-image: url(graphics/shadowBottom_halo12.png); }
+#fbBox .fbShadowBottom_halo16 { background-image: url(graphics/shadowBottom_halo16.png); }
+#fbBox .fbShadowBottom_halo24 { background-image: url(graphics/shadowBottom_halo24.png); }
+
+#fbBox #fbShadowLeft { background-position: bottom left; }
+#fbBox .fbShadowLeft_halo8 { background-image: url(graphics/shadowLeft_halo8.png); }
+#fbBox .fbShadowLeft_halo12 { background-image: url(graphics/shadowLeft_halo12.png); }
+#fbBox .fbShadowLeft_halo16 { background-image: url(graphics/shadowLeft_halo16.png); }
+#fbBox .fbShadowLeft_halo24 { background-image: url(graphics/shadowLeft_halo24.png); }
+
+#fbBox #fbShadowCorner { background-position: bottom right; }
+#fbBox .fbShadowCorner_drop8 { background-image: url(graphics/shadowCorner_drop8.png); }
+#fbBox .fbShadowCorner_drop12 { background-image: url(graphics/shadowCorner_drop12.png); }
+#fbBox .fbShadowCorner_drop16 { background-image: url(graphics/shadowCorner_drop16.png); }
+#fbBox .fbShadowCorner_drop24 { background-image: url(graphics/shadowCorner_drop24.png); }
+
+#fbBox #fbCanvas {
+	position: relative;  /* won't fade in ie6 if absolute */
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#fbBox #fbMainDiv, #fbBox #fbInfoPanel, #fbBox #fbControlPanel {
+	position: absolute;
+	border-style: solid;
+	overflow: hidden;
+}
+#fbBox #fbMainDiv {
+	background-color: #fff;
+}
+
+/* innerBorder color */
+#fbBox .fbMainDiv_black { border-color: #ccc; }
+#fbBox .fbMainDiv_white { border-color: #000; }
+#fbBox .fbMainDiv_blue { border-color: #aaa8be; }
+#fbBox .fbMainDiv_yellow { border-color: #700; }
+#fbBox .fbMainDiv_red { border-color: #b64; }
+#fbBox .fbMainDiv_custom { border-color: #b64; }
+
+#fbBox #fbResizer {
+	position: absolute;
+	width: 25px;  /* = dimensions of the resize button (see note below) */
+	height: 25px;
+	left: 0;
+	top: 0;
+}
+/* resize button graphic */
+#fbBox .fbResizer_black { background-image: url(graphics/resize_black.gif); }
+#fbBox .fbResizer_white { background-image: url(graphics/resize_white.gif); }
+#fbBox .fbResizer_blue { background-image: url(graphics/resize_blue.gif); }
+#fbBox .fbResizer_yellow { background-image: url(graphics/resize_yellow.gif); }
+#fbBox .fbResizer_red { background-image: url(graphics/resize_red.gif); }
+#fbBox .fbResizer_custom { background-image: url(graphics/resize_red.gif); }
+/* note: if you want the smaller resize button, change #fbResizer width and height to 19px
+   and also add "_small" to the resize gif name (e.g., graphics/resize_black_small.gif) */
+
+#fbBox #fbLeftNav, #fbBox #fbRightNav {
+	position: absolute;
+	height: 100%;
+}
+#fbBox #fbLeftNav, #fbBox #fbOverlayPrev {
+	left: 0;
+}
+#fbBox #fbRightNav, #fbBox #fbOverlayNext {
+	right: 0;
+}
+
+#fbBox #fbOverlayPrev, #fbBox #fbOverlayNext {
+	position: absolute;
+	width: 49px;  /* = dimensions of the upper prev and next graphics */
+	height: 23px;
+	background-repeat: no-repeat;
+}
+
+/* on-mouse-over upper nav prev graphic */
+#fbBox .fbOverlayPrev_black { background-image: url(graphics/prev_upr_black.gif); }
+#fbBox .fbOverlayPrev_white { background-image: url(graphics/prev_upr_white.gif); }
+#fbBox .fbOverlayPrev_blue { background-image: url(graphics/prev_upr_blue.gif); }
+#fbBox .fbOverlayPrev_yellow { background-image: url(graphics/prev_upr_yellow.gif); }
+#fbBox .fbOverlayPrev_red { background-image: url(graphics/prev_upr_red.gif); }
+#fbBox .fbOverlayPrev_custom { background-image: url(graphics/prev_upr_blue.gif); }
+
+/* on-mouse-over upper nav next graphic */
+#fbBox .fbOverlayNext_black { background-image: url(graphics/next_upr_black.gif); }
+#fbBox .fbOverlayNext_white { background-image: url(graphics/next_upr_white.gif); }
+#fbBox .fbOverlayNext_blue { background-image: url(graphics/next_upr_blue.gif); }
+#fbBox .fbOverlayNext_yellow { background-image: url(graphics/next_upr_yellow.gif); }
+#fbBox .fbOverlayNext_red { background-image: url(graphics/next_upr_red.gif); }
+#fbBox .fbOverlayNext_custom { background-image: url(graphics/next_upr_blue.gif); }
+
+#fbBox #fbInfoPanel {
+	line-height: 1.25em;
+	/* caption and info link text */
+  	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+#fbBox #fbCaption {
+	cursor: default;
+}
+
+#fbBox #fbInfoLink, #fbBox #fbPrintLink {
+	padding-bottom: .1em;
+}
+
+#fbBox #fbItemNumber {
+	font-size: 10px;  /* 'image x of y' text */
+	white-space: nowrap;
+	cursor: default;
+}
+
+/* 'image x of y' and indexLinks color */
+#fbBox .fbItemNumber_black, #fbBox #fbIndexLinks.fbIndexLinks_black, #fbBox #fbIndexLinks.fbIndexLinks_black a:link, #fbBox #fbIndexLinks.fbIndexLinks_black a:visited { color: #aaa; }
+#fbBox .fbItemNumber_white, #fbBox #fbIndexLinks.fbIndexLinks_white, #fbBox #fbIndexLinks.fbIndexLinks_white a:link, #fbBox #fbIndexLinks.fbIndexLinks_white a:visited { color: #666; }
+#fbBox .fbItemNumber_blue, #fbBox #fbIndexLinks.fbIndexLinks_blue, #fbBox #fbIndexLinks.fbIndexLinks_blue a:link, #fbBox #fbIndexLinks.fbIndexLinks_blue a:visited { color: #aaa8be; }
+#fbBox .fbItemNumber_yellow, #fbBox #fbIndexLinks.fbIndexLinks_yellow, #fbBox #fbIndexLinks.fbIndexLinks_yellow a:link, #fbBox #fbIndexLinks.fbIndexLinks_yellow a:visited { color: #700; }
+#fbBox .fbItemNumber_red, #fbBox #fbIndexLinks.fbIndexLinks_red, #fbBox #fbIndexLinks.fbIndexLinks_red a:link, #fbBox #fbIndexLinks.fbIndexLinks_red a:visited { color: #ca8; }
+#fbBox .fbItemNumber_custom, #fbBox #fbIndexLinks.fbIndexLinks_custom, #fbBox #fbIndexLinks.fbIndexLinks_custom a:link, #fbBox #fbIndexLinks.fbIndexLinks_custom a:visited { color: #965f74; }
+
+/* caption, infoLink, printLink, & indexLinks:hover color */
+#fbBox .fbInfoPanel_black, #fbBox .fbInfoPanel_black a:link, #fbBox .fbInfoPanel_black a:visited, #fbBox #fbIndexLinks.fbIndexLinks_black a:hover { color: #d7d7d7; }
+#fbBox .fbInfoPanel_white, #fbBox .fbInfoPanel_white a:link, #fbBox .fbInfoPanel_white a:visited, #fbBox #fbIndexLinks.fbIndexLinks_white a:hover { color: #000; }
+#fbBox .fbInfoPanel_blue, #fbBox .fbInfoPanel_blue a:link, #fbBox .fbInfoPanel_blue a:visited, #fbBox #fbIndexLinks.fbIndexLinks_blue a:hover { color: #aaa8be; }
+#fbBox .fbInfoPanel_yellow, #fbBox .fbInfoPanel_yellow a:link, #fbBox .fbInfoPanel_yellow a:visited, #fbBox #fbIndexLinks.fbIndexLinks_yellow a:hover { color: #700; }
+#fbBox .fbInfoPanel_red, #fbBox .fbInfoPanel_red a:link, #fbBox .fbInfoPanel_red a:visited, #fbBox #fbIndexLinks.fbIndexLinks_red a:hover { color: #ec9; }
+#fbBox .fbInfoPanel_custom, #fbBox .fbInfoPanel_custom a:link, #fbBox .fbInfoPanel_custom a:visited, #fbBox #fbIndexLinks.fbIndexLinks_custom a:hover { color: #735; }
+
+#fbBox #fbControls {
+	height: 14px;  /* height of control widget graphics - they should all be the same */
+	font-size: 1px;
+}
+
+#fbBox #fbNavControls {
+	width: 88px;  /* sum of lowerprev and lowernext widths */
+	height: 14px;  /* height of 1 sprite panel in lowerprev and lowernext graphics */
+}
+
+#fbBox #fbPrev {
+	float: left;
+	width: 44px;  /* = dimensions of the lower nav 'prev' graphic */
+	height: 14px;
+	background-repeat: no-repeat;
+}
+
+/* lower nav 'prev' graphic */
+#fbBox .fbPrev_black { background-image: url(graphics/prev_lwr_black.gif); }
+#fbBox .fbPrev_white { background-image: url(graphics/prev_lwr_white.gif); }
+#fbBox .fbPrev_blue { background-image: url(graphics/prev_lwr_blue.gif); }
+#fbBox .fbPrev_yellow { background-image: url(graphics/prev_lwr_yellow.gif); }
+#fbBox .fbPrev_red { background-image: url(graphics/prev_lwr_red.gif); }
+#fbBox .fbPrev_custom { background-image: url(graphics/prev_lwr_yellow.gif); }
+
+/* lower nav greyed-out 'prev' graphic */
+#fbBox .fbPrev_black_off { background-image: url(graphics/prev_lwr_off_black.gif); }
+#fbBox .fbPrev_white_off { background-image: url(graphics/prev_lwr_off_white.gif); }
+#fbBox .fbPrev_blue_off { background-image: url(graphics/prev_lwr_off_blue.gif); }
+#fbBox .fbPrev_yellow_off { background-image: url(graphics/prev_lwr_off_yellow.gif); }
+#fbBox .fbPrev_red_off { background-image: url(graphics/prev_lwr_off_red.gif); }
+#fbBox .fbPrev_custom_off { background-image: url(graphics/prev_lwr_off_yellow.gif); }
+
+#fbBox #fbNext {
+	float: right;
+	width: 44px;  /* = dimensions of the lower nav 'next' graphic */
+	height: 14px;
+	background-repeat: no-repeat;
+}
+
+/* lower nav 'next' graphic */
+#fbBox .fbNext_black { background-image: url(graphics/next_lwr_black.gif); }
+#fbBox .fbNext_white { background-image: url(graphics/next_lwr_white.gif); }
+#fbBox .fbNext_blue { background-image: url(graphics/next_lwr_blue.gif); }
+#fbBox .fbNext_yellow { background-image: url(graphics/next_lwr_yellow.gif); }
+#fbBox .fbNext_red { background-image: url(graphics/next_lwr_red.gif); }
+#fbBox .fbNext_custom { background-image: url(graphics/next_lwr_yellow.gif); }
+
+/* lower nav greyed-out 'next' graphic */
+#fbBox .fbNext_black_off { background-image: url(graphics/next_lwr_off_black.gif); }
+#fbBox .fbNext_white_off { background-image: url(graphics/next_lwr_off_white.gif); }
+#fbBox .fbNext_blue_off { background-image: url(graphics/next_lwr_off_blue.gif); }
+#fbBox .fbNext_yellow_off { background-image: url(graphics/next_lwr_off_yellow.gif); }
+#fbBox .fbNext_red_off { background-image: url(graphics/next_lwr_off_red.gif); }
+#fbBox .fbNext_custom_off { background-image: url(graphics/next_lwr_off_yellow.gif); }
+
+#fbBox #fbPlay, #fbBox #fbPause {
+	position: absolute;
+	background-repeat: no-repeat;
+}
+
+#fbBox #fbPlayPause, #fbBox #fbPlay, #fbBox #fbPause {
+	width: 46px;  /* = dimensions of the 'play' and 'pause' graphics (they need to be the same size) */
+	height: 14px;
+	text-align: justify;
+}
+
+/* 'play' and 'pause' graphics */
+#fbBox .fbPlay_black { background-image: url(graphics/play_black.gif); }
+#fbBox .fbPlay_white { background-image: url(graphics/play_white.gif); }
+#fbBox .fbPlay_blue { background-image: url(graphics/play_blue.gif); }
+#fbBox .fbPlay_yellow { background-image: url(graphics/play_yellow.gif); }
+#fbBox .fbPlay_red { background-image: url(graphics/play_red.gif); }
+#fbBox .fbPlay_custom { background-image: url(graphics/play_yellow.gif); }
+#fbBox .fbPause_black { background-image: url(graphics/pause_black.gif); }
+#fbBox .fbPause_white { background-image: url(graphics/pause_white.gif); }
+#fbBox .fbPause_blue { background-image: url(graphics/pause_blue.gif); }
+#fbBox .fbPause_yellow { background-image: url(graphics/pause_yellow.gif); }
+#fbBox .fbPause_red { background-image: url(graphics/pause_red.gif); }
+#fbBox .fbPause_custom { background-image: url(graphics/pause_yellow.gif); }
+
+#fbBox #fbClose {
+	width: 46px;  /* = dimensions of the 'close' graphic */
+	height: 14px;
+	background-repeat: no-repeat;
+}
+
+/* 'close' graphic */
+#fbBox .fbClose_black { background-image: url(graphics/close_black.gif); }
+#fbBox .fbClose_white { background-image: url(graphics/close_white.gif); }
+#fbBox .fbClose_blue { background-image: url(graphics/close_blue.gif); }
+#fbBox .fbClose_yellow { background-image: url(graphics/close_yellow.gif); }
+#fbBox .fbClose_red { background-image: url(graphics/close_red.gif); }
+#fbBox .fbClose_custom { background-image: url(graphics/close_yellow.gif); }
+
+#fbBox #fbIndexLinks {
+	clear: both;
+	font-size: 11px;
+	cursor: default;
+}
+#fbBox #fbIndexLinks a:hover {
+	font-weight: bold;
+}
+
+/* posLeft, posCenter & posRight are dynamically assigned classes that allow layout of the info and control panels depending on which side they're on */
+/* info panel */
+#fbInfoPanel.posCenter, #fbInfoDiv.posCenter, #fbIndexLinks.posCenter {
+	margin: 0 auto;
+}
+#fbInfoPanel.posRight, #fbInfoDiv.posRight, #fbIndexLinks.posRight {
+	float: right;
+}
+#fbInfoPanel.posLeft, #fbInfoDiv.posLeft, #fbIndexLinks.posLeft {
+	float: left;
+}
+/* control panel */
+#fbControlPanel.posRight, #fbControls.posRight, #fbClose.posRight, #fbSubControls.posRight, #fbNavControls.posLeft, #fbPlayPause.posLeft {
+	float: right;
+}
+#fbControlPanel.posLeft, #fbControls.posLeft, #fbClose.posLeft, #fbSubControls.posLeft, #fbNavControls.posRight, #fbPlayPause.posRight {
+	float: left;
+}
+/* IE6 wants these, maybe for layout? */
+#fbSubControls, #fbClose, #fbIndexLinks, #fbPlayPause, #fbNavControls {
+	float: left;
+}
+
+
+ul.nav {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 150px; /* Width of Menu Items */
+	border-bottom: 1px solid #ccc;
+	}
+	
+ul#.nav li.nav {
+	position: relative;
+	}
+	
+li.nav ul.nav {
+	position: absolute;
+	left: 189px; /* Set 1px less than menu width */
+	top: 170px;
+	display: none;
+	}
+
+/* Styles for Menu Items */
+ul.nav li.nav a.nav {
+	display: block;
+	text-decoration: none;
+	color: #777;
+	background: #fff url('https://trackmill.com/free-rider-2/menu_bg.gif') ; /* IE6 Bug */
+	padding: 3px;
+	border: 1px solid #ccc; /* IE6 Bug */
+	border-bottom: 0;
+	}
+	
+/* Holly Hack. IE Requirement \*/
+* html ul li { float: left; height: 1%; }
+* html ul li a { height: 1%; }
+/* End */
+
+li:hover.nav ul.nav, li.over.nav ul.nav { display: block; } /* The magic */
+
+
+#sortmenu{position:absolute;}/*margin-bottom:45px;*/
+#sortmenu ul .item{display:none;}
+#sortmenu ul:hover .item{display:block;background: #fff url('https://trackmill.com/free-rider-2/menu_bg.gif') ;;padding:1px;margin:1px;}
+#sortmenu ul .top{color:#ffffff;}
+#sortmenu ul:hover .item a{color:#323B51;text-decoration:none;}
+#sortmenu ul:hover .item a:hover{color:#999;}
+
+#sortmenu ul{width:150px;float:left;margin:0px;padding:2px;background:#323B51;list-style:none;}
+.clear{clear:both;height:30px;color:#ffffff;}
